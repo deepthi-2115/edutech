@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f9fbff;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #4f6ef7;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.login-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background: #4f6ef7;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 60px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero span {
+  color: #4f6ef7;
+}
+
+.hero-buttons button {
+  margin-right: 12px;
+  margin-top: 20px;
+  padding: 14px 22px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #4f6ef7;
+  color: white;
+}
+
+.secondary {
+  background: #e7ecff;
+  color: #4f6ef7;
+}
+
+.outline {
+  background: white;
+  border: 2px solid #4f6ef7;
+  color: #4f6ef7;
+}
+
+/* FEATURES */
+.features {
+  background: white;
+  padding: 80px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  background: #f2f6ff;
+}
+
+/* DASHBOARD */
+.dashboard {
+  padding: 80px;
+}
+
+.dash-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.dash-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* MODALS */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.modal-box {
+  background: white;
+  width: 300px;
+  margin: 100px auto;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.modal input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SkillMatch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <div class="logo">SkillMatch</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#dashboard">Dashboard</a>
+    <button class="login-btn" onclick="openLogin()">Login</button>
+    <button class="signup-btn" onclick="openSignup()">Sign Up</button>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <h1>Internships matched by <span>skills, not college names</span></h1>
+  <p>
+    Verified skills. Fair hiring. Direct recruiter access.
+  </p>
+
+  <div class="hero-buttons">
+    <button class="primary">Check Internship Fit</button>
+    <button class="secondary">Post Internship</button>
+    <button class="outline">Explore Internships</button>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="features">
+  <h2>Why SkillMatch?</h2>
+  <div class="feature-grid">
+    <div class="card">✅ Skill Verified Profiles</div>
+    <div class="card">🎯 Smart Internship Matching</div>
+    <div class="card">🤝 No College Bias</div>
+    <div class="card">⚡ Direct Recruiter Connect</div>
+  </div>
+</section>
+
+<!-- DASHBOARD -->
+<section id="dashboard" class="dashboard">
+  <h2>Your Dashboard</h2>
+  <div class="dash-grid">
+    <div class="dash-card">📄 Upload Resume</div>
+    <div class="dash-card">🧠 Skill Assessment</div>
+    <div class="dash-card">📌 Matched Internships</div>
+    <div class="dash-card">📊 Application Status</div>
+  </div>
+</section>
+
+<!-- LOGIN MODAL -->
+<div id="loginModal" class="modal">
+  <div class="modal-box">
+    <h2>Login</h2>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button class="primary">Login</button>
+    <p onclick="closeModal()">Close</p>
+  </div>
+</div>
+
+<!-- SIGNUP MODAL -->
+<div id="signupModal" class="modal">
+  <div class="modal-box">
+    <h2>Sign Up</h2>
+    <input type="text" placeholder="Full Name">
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button class="primary">Create Account</button>
+    <p onclick="closeModal()">Close</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
